@@ -154,7 +154,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
 
             if (System.IO.File.Exists(oldImagePath))
             {
-                System.IO.File.Delete(oldImagePath); 
+                System.IO.File.Delete(oldImagePath);
             }
 
 
@@ -163,9 +163,7 @@ namespace BulkyWeb.Areas.Admin.Controllers
 
             return Json(new { success = true, message = "Delete Successful" });
 
-
-            #endregion
-
-
         }
-    } }
+        #endregion
+    } 
+    } 
